@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(254, 224, 234);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    background: url('img/bg-desktop.webp');
+    font-family:'Times New Roman', Times, serif
 }
 
 footer{
