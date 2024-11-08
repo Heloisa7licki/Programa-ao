@@ -30,7 +30,7 @@ footer p{
 
 .cartao{
     margin: 1rem 1rem;
-    background-color: rgb(253, 171, 183);
+    background-color:#144480;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -39,11 +39,11 @@ footer p{
 .cartao__conteudo {
     text-align: center;
     height: 100%;
-    background-color: var(#144480);
+    background-color: #144480;
 }
 
 .cartao__conteudo h3 {
-    color: var(black);
+    color:black;
     border: 1px solid rgb(255, 255, 255);
     text-align: left;
     padding: 0.5rem;
@@ -54,6 +54,6 @@ footer p{
 }
 
 .cartao__conteudo__resposta p{
-    color:var(#00F4BF);
+    color:#00F4BF;
     font-weight: 700;
 }
