@@ -9,6 +9,10 @@ body {
     font-family:'Courier New', Courier, monospace;
 }
 
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
 footer{
     background-color: black;
     color:aliceblue;
@@ -40,6 +44,7 @@ footer p{
     text-align: center;
     height: 100%;
     background-color: #144480;
+    transition: transform 300ms ease-in-out;
 }
 
 .cartao__conteudo h3 {
@@ -51,6 +56,7 @@ footer p{
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+    backface-visibility: hidden;
 }
 
 .cartao__conteudo__resposta p{
